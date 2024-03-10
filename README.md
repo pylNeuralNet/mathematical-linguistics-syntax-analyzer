@@ -39,9 +39,10 @@ O ::= * | : | + | - | ^
 ```
 
 # Algorithm design
-Based on the fixed grammar and after reducing the recurrent calls in it, we could arrive at the following diagrams:
+Based on the fixed grammar and after reducing the recurrent calls in it, we could arrive at the following diagrams (ISO-14977 EBNF):
+
 ![grammar S diagram](https://github.com/pylNeuralNet/mathematical-linguistics-syntax-analyzer/blob/main/Diagrams/S.png)
+
 ![production W diagram](https://github.com/pylNeuralNet/mathematical-linguistics-syntax-analyzer/blob/main/Diagrams/W.png)
-ISO-14977 EBNF
 
 The code is written as the diagrams show.
